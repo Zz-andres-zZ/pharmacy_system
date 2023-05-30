@@ -86,6 +86,29 @@
             }
         ]
     });
+
+        /**
+     * 
+     * ASINGAR CLASE ACTIVE PARA EL ITEM DE MENU
+     * @param {string} section actual. se establecce en el archivo content main
+     * 
+     **/
+    const handle_section_active = (section) => {
+        /* console.log('section', section) */
+        const $menu_top_container = $("#menu_top");
+        // clean all nav-link
+        $menu_top_container.find(".nav-link").removeClass("active");
+        const $section_target = $menu_top_container.find(
+            `.nav-link[href="${section}"]`
+        );
+        // add section active
+        $section_target.addClass("active");
+    };
+
+    jQuery(() => {
+        handle_section_active("<?= $section_active ?>");
+    });
+
 </script>
 
 <!-- End Slider Script -->

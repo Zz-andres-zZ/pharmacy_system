@@ -5,17 +5,22 @@
  * * LAS VISTAS SE CARGARAN DESDE EL CONTROLADOR
  */
 
-require "app/controller/Page_controller.php";
+require "app/controller/PageController.php";
 
-$page_controller = Page_controller::class;
+$page_controller = PageController::class;
 
 if (isset($_GET['url'])) {
     $path = $_GET['url'];
 
     switch ($path) {
-        case 'home':
-            $section_active = 'home';
-            $page_controller::home();
+        case '':
+            $section_active = 'welcome';
+            $page_controller::welcome();
+            break;
+
+        case 'welcome':
+            $section_active = 'welcome';
+            $page_controller::welcome();
             break;
 
         case 'about':
@@ -43,11 +48,16 @@ if (isset($_GET['url'])) {
             $page_controller::login();
             break;
 
+        case 'logaut':
+            $section_active = 'logaut';
+            $page_controller::logaut();
+            break;
+
         default:
             $page_controller::not_found();
             break;
     }
 } else {
-    $section_active = 'home';
+    $section_active = 'welcome';
     require "view/welcome.php";
 }

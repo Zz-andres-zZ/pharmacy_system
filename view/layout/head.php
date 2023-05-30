@@ -1,12 +1,3 @@
-<?php 
-require_once "app/model/conexion.php";
-
-/* if(!isset($_SESSION['login'])){
-    header("Location:login");
-}
-$nombre = $_SESSION['usuario']['nombre']; */
-?>
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -26,4 +17,4 @@ $nombre = $_SESSION['usuario']['nombre']; */
 </head>
 
 <body>
-
+    <div id="preloader"></div>
