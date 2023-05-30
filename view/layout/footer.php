@@ -11,11 +11,11 @@
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
-                        <a class="text-decoration-none" href="+57-311-586-5714">Celular: +57-311-586-5714</a>
+                        <a class="text-decoration-none" target="_blank" href="https://wa.me/+573115865714">Celular: +57-311-586-5714</a>
                     </li>
                     <li>
                         <i class="fa fa-envelope fa-fw"></i>
-                        <a class="text-decoration-none" href="mailto:bermudezluisa970@gmail.com">Correo: bermudezluisa970@gmail.com</a>
+                        <a class="text-decoration-none" target="_blank" href="mailto:bermudezluisa970@gmail.com">Correo: bermudezluisa970@gmail.com</a>
                     </li>
                 </ul>
             </div>
@@ -33,11 +33,11 @@
             <div class="col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">Información adicional</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="./index.php">Casa</a></li>
-                    <li><a class="text-decoration-none" href="./about.php">Acerca de nosotros</a></li>
+                    <li><a class="text-decoration-none" href="welcome">Casa</a></li>
+                    <li><a class="text-decoration-none" href="about">Acerca de nosotros</a></li>
                     <li><a class="text-decoration-none" href="#">Ubicacion de la tienda</a></li>
                     <li><a class="text-decoration-none" href="#">Preguntas frecuentes</a></li>
-                    <li><a class="text-decoration-none" href="./contacto.php">Contacto</a></li>
+                    <li><a class="text-decoration-none" href="contacto">Contacto</a></li>
                 </ul>
             </div>
         </div>

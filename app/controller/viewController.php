@@ -37,7 +37,7 @@ if (isset($_GET['url'])) {
             $section_active = 'shop';
             $page_controller::shop();
             break;
-            
+
         case 'shop-single':
             $section_active = 'shop-single';
             $page_controller::shopSingle();
@@ -51,6 +51,13 @@ if (isset($_GET['url'])) {
         case 'logaut':
             $section_active = 'logaut';
             $page_controller::logaut();
+            break;
+
+
+            /* PANEL ADMINISTRATIVO */
+        case 'dashboard':
+            $section_active = 'dashboard';
+            $page_controller::dashboard();
             break;
 
         default:

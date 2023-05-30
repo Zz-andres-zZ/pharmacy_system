@@ -32,4 +32,9 @@ class PageController {
     public static function logaut() {
         require_once "view/auth/logaut.php";
     }
+
+    /* PANEL ADMINISTRATIVO */
+    public static function dashboard() {
+        require_once "admin/dashboard.php";
+    }
 }
