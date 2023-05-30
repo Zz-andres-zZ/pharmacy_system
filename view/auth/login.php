@@ -1,14 +1,26 @@
+<?php
+require_once "app/config/config_login.php";
+
+if (isset($_SESSION['user_data'])) {
+    header("Location:welcome");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login / Registro</title>
     <base href="./">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="view/auth/assets/css/estilos.css">
     <link rel="stylesheet" href="view/auth/assets/css/bootstrap.min.css">
+
 </head>
 
 <body>

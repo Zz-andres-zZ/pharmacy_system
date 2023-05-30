@@ -5,7 +5,7 @@
             <div class="w-100 d-flex justify-content-between align-items-center">
                 <div>
                     <p class="m-0">BIENVENIDO
-                        <span class="ms-3"><?= isset($_SESSION['usuario']) ?></span>
+                        <span class="ms-3"><?= isset($_SESSION['usuario']) ? $_SESSION['usuario'] : "" ?></span>
                     </p>
                 </div>
                 <div>

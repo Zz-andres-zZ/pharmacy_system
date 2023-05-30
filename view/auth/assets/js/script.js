@@ -1,5 +1,7 @@
 //Ejecutando funciones
-document.getElementById("btn__iniciar-sesion").addEventListener("click", iniciarSesion);
+document
+    .getElementById("btn__iniciar-sesion")
+    .addEventListener("click", iniciarSesion);
 document.getElementById("btn__registrarse").addEventListener("click", register);
 window.addEventListener("resize", anchoPage);
 
@@ -84,7 +86,10 @@ function register() {
 * =============================*/
 $(document).ready(() => {
     // limpiar el formulario
-    $("#form_register input.field").val("");
+    $("#btn__registrarse, #btn__iniciar-sesion").click(function() {
+        $("#form_register input.field").val("");
+        $("#form_login input.field").val("");
+    });
 
     $("#register").click(function(e) {
         e.preventDefault();
@@ -210,6 +215,7 @@ const submit_form_register = data => {
 *
 * =============================*/
 $(document).ready(() => {
+    
     $("#login").click(function(e) {
         e.preventDefault();
 

@@ -1,6 +1,6 @@
 <?php
 
-require("../model/Database.php");
+require_once "../model/Database.php";
 
 class UserController {
     
@@ -26,6 +26,7 @@ class UserController {
             $stmt->bindParam(":direction", $this->direction);
             $stmt->bindParam(":password", $this->password);
             $stmt->execute();
+
         } catch (PDOException $error) {
             $response = ['Error' => 'error' . $error->getMessage()];
             echo "<pre>";
@@ -48,7 +49,7 @@ class UserController {
         $result->bindParam(":password", $this->password);
 
         $result->execute();
-        $result = $result->fetchAll(PDO::FETCH_OBJ);
+        $result = $result->fetchAll(PDO::FETCH_ASSOC);
 
         return $result;
     }
@@ -73,4 +74,3 @@ class UserController {
         $result->fetchAll(PDO::FETCH_ASSOC);
     }
 }
-?>

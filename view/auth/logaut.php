@@ -1,4 +1,5 @@
 <?php 
 session_unset();
-header("location:./");
+session_destroy();
+header("location:login");
 ?>

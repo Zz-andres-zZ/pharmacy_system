@@ -1,3 +1,7 @@
+<?php
+require_once "app/config/config_login.php";
+check_login();
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -7,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FarmaSalud</title>
     <base href="./">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
     <link rel="stylesheet" href="assets/css/style-one.css">

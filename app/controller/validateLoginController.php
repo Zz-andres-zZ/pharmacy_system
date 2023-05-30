@@ -24,13 +24,9 @@ try {
             die();
         }
 
+        session_start();
         $_SESSION['usuario'] = $user->correo;
-
-        echo "<pre>"; 
-        print_r([
-            'data' => $_SESSION['usuario']
-        ]);
-        echo "</pre>";
+        $_SESSION['user_data'] = true;
 
         echo 200;
     }

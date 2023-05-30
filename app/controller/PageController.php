@@ -1,42 +1,35 @@
 <?php
 
-require_once "app/config/config_login.php";
-
 class PageController {
     public static function welcome() {
-        check_login();
-        require "view/welcome.php";
+        require_once "view/welcome.php";
     }
 
     public static function about() {
-        check_login();
-        require "view/about.php";
+        require_once "view/about.php";
     }
     
     public static function contact() {
-        check_login();
-        require "view/contacto.php";
+        require_once "view/contacto.php";
     }
 
     public static function shop() {
-        check_login();
-        require "view/shop.php";
+        require_once "view/shop.php";
     }
 
     public static function shopSingle() {
-        check_login();
-        require "view/shop-single.php";
+        require_once "view/shop-single.php";
     }
     
     public static function not_found() {
-        require "view/404.php";
+        require_once "view/404.php";
     }
 
     public static function login() {
-        require "view/auth/login.php";
+        require_once "view/auth/login.php";
     }
 
     public static function logaut() {
-        require "view/auth/logaut.php";
+        require_once "view/auth/logaut.php";
     }
 }
