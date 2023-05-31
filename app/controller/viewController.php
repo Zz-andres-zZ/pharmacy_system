@@ -53,13 +53,6 @@ if (isset($_GET['url'])) {
             $page_controller::logaut();
             break;
 
-
-            /* PANEL ADMINISTRATIVO */
-        case 'dashboard':
-            $section_active = 'dashboard';
-            $page_controller::dashboard();
-            break;
-
         default:
             $page_controller::not_found();
             break;

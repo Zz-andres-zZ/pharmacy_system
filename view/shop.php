@@ -31,7 +31,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/CARVEDILOL 6.25 MG 30 TABLETAS GF.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/CARVEDILOL 6.25 MG 30 TABLETAS GF.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -68,7 +68,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/Enterogermina-tabletas.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/Enterogermina-tabletas.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -105,7 +105,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/CALMIDOL COMPUESTO 48 GRAGEAS.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/CALMIDOL COMPUESTO 48 GRAGEAS.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -142,7 +142,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/COLIK FORTE SOBRE X 8 TAB.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/COLIK FORTE SOBRE X 8 TAB.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -179,7 +179,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/DICLOXACILINA 500 MG 50 CAPSULAS LS.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/DICLOXACILINA 500 MG 50 CAPSULAS LS.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -216,7 +216,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/DOXICICLINA 100MG 10 CAPS.jpg" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/DOXICICLINA 100MG 10 CAPS.jpg" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -253,7 +253,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/Dolex-.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/Dolex-.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -290,7 +290,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/SEVEDOL EXTRAFUERTE SOBRE X 6 TAB. 2.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/SEVEDOL EXTRAFUERTE SOBRE X 6 TAB. 2.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -327,7 +327,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/acetaminofen.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/acetaminofen.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -364,7 +364,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/CLARITROMICINA 500 MG 10 TABLETAS PC.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/CLARITROMICINA 500 MG 10 TABLETAS PC.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -401,7 +401,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/SIMPIOX GOTAS.jpeg" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/SIMPIOX GOTAS.jpeg" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -438,7 +438,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/VITAMINA E 400 U I 100 CAPSULAS COLMED.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/VITAMINA E 400 U I 100 CAPSULAS COLMED.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -476,7 +476,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/imagenes/FACETIX SUAVE 28 TBS.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/imagenes/FACETIX SUAVE 28 TBS.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -513,7 +513,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.png" width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/img/shop_01.png" width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -550,7 +550,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/descarga (1).JFIF " width="270 px" height="370.66 px">
+                                <img class="card-img rounded-0 img-fluid" src="asset/img/descarga (1).JFIF " width="270 px" height="370.66 px">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <!-- AQUI -->
@@ -621,16 +621,16 @@
                                         <div class="carousel-item active">
                                             <div class="row m-0">
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_01.png" alt="Brand Logo"></a>
                                                 </div>
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_02.png" alt="Brand Logo"></a>
                                                 </div>
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_03.png" alt="Brand Logo"></a>
                                                 </div>
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_04.png" alt="Brand Logo"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -640,16 +640,16 @@
                                         <div class="carousel-item">
                                             <div class="row m-0">
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_01.png" alt="Brand Logo"></a>
                                                 </div>
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_02.png" alt="Brand Logo"></a>
                                                 </div>
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_03.png" alt="Brand Logo"></a>
                                                 </div>
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_04.png" alt="Brand Logo"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -659,16 +659,16 @@
                                         <div class="carousel-item">
                                             <div class="row m-0">
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_01.png" alt="Brand Logo"></a>
                                                 </div>
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_02.png" alt="Brand Logo"></a>
                                                 </div>
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_03.png" alt="Brand Logo"></a>
                                                 </div>
                                                 <div class="col-3 p-md-5">
-                                                    <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
+                                                    <a href="#"><img class="img-fluid brand-img" src="asset/img/brand_04.png" alt="Brand Logo"></a>
                                                 </div>
                                             </div>
                                         </div>

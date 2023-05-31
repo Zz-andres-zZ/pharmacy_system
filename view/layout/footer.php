@@ -46,16 +46,15 @@
 <!-- End Footer -->
 
 <!-- Start Script -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/jquery-1.11.0.min.js"></script>
-<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
-<script src="assets/js/fontawesome.min.js" crossorigin="anonymous"></script>
-<script src="assets/js/app.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="asset/vendor/bs/js/bootstrap.bundle.min.js"></script>
+<script src="asset/vendor/jquery/jquery-1.11.0.min.js"></script>
+<script src="asset/vendor/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script src="asset/vendor/fontawesome/fontawesome.min.js" crossorigin="anonymous"></script>
+<script src="asset/js/app.js"></script>
+<script src="asset/js/custom.js"></script>
 <!-- End Script -->
-
 <!-- Start Slider Script -->
-<script src="assets/js/slick.min.js"></script>
+<script src="asset/vendor/slick/js/slick.min.js"></script>
 <script>
     $('#carousel-related-product').slick({
         infinite: true,

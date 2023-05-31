@@ -1,12 +1,9 @@
 <?php
 require_once "app/config/config_login.php";
-
 if (isset($_SESSION['user_data'])) {
     header("Location:welcome");
 }
-
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 

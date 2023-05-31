@@ -25,10 +25,10 @@
             <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-end" id="main_nav">
                 <ul id="menu_top" class="nav navbar-nav d-flex justify-content-between justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" href="welcome">Casa</a>
+                        <a class="nav-link" href="welcome">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2" href="about">Acerca de nosotros</a>
+                        <a class="nav-link ms-2" href="about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link ms-2" href="shop">Tienda</a>
