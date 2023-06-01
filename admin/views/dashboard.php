@@ -1,6 +1,8 @@
 <div id="layoutSidenav">
-    <?php require "views/layouts/includes/asside.php"; ?>
     <div id="layoutSidenav_content">
+        <header>
+            <?php require "views/layouts/includes/navbar.php"; ?>
+        </header>
         <main id="dashboard">
             <div class="container-fluid">
                 <h1 class="mt-4">Dashboard</h1>

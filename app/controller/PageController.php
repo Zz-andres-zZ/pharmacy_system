@@ -21,15 +21,15 @@ class PageController {
         require_once "view/shop-single.php";
     }
     
-    public static function not_found() {
-        require_once "view/404.php";
-    }
-
     public static function login() {
         require_once "view/auth/login.php";
     }
 
     public static function logaut() {
         require_once "view/auth/logaut.php";
+    }
+
+    public static function not_found() {
+        require_once "view/404.php";
     }
 }

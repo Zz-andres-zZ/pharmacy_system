@@ -10,7 +10,7 @@ check_login_admin();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Farmacia</title>
-    <link rel="stylesheet" href="asset/css/master.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
 </head>
 

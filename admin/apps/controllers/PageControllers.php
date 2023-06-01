@@ -7,6 +7,10 @@ class PageControllers {
         require_once "views/dashboard.php";
     }
 
+    public static function layoutstatic () {
+        require_once "views/layout-static.php";
+    }
+
     public static function table() {
         require_once "views/tables.php";
     }
@@ -16,15 +20,19 @@ class PageControllers {
     }
     
     public static function login_admin() {
-        require_once "views/auths/login.php";
+        require_once "views/auth/login.php";
     }
 
     public static function register_admin() {
-        require_once "views/auths/register.php";
+        require_once "views/auth/register.php";
+    }
+
+    public static function password_admin() {
+        require_once "views/auth/password.php";
     }
 
     public static function logaut_admin() {
-        require_once "views/auths/logaut.php";
+        require_once "views/auth/logaut.php";
     }
 
     public static function not_found() {

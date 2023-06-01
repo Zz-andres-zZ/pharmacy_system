@@ -18,6 +18,8 @@ class Database {
             self::$conect = new PDO("mysql:host=" . self::$hostname . ";dbname=" . self::$database, self::$username, self::$password);
             self::$conect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             
+            echo "CONNCET";
+
             return self::$conect;
 
         } catch (PDOException $error) {

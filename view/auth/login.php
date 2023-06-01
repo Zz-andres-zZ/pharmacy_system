@@ -63,7 +63,7 @@ if (isset($_SESSION['user_data'])) {
         </section>
     </main>
 
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="view/auth/assets/js/jquery-3.6.0.min.js"></script>
     <script src="view/auth/assets/js/bootstrap.bundle.min.js"></script>
     <script src="view/auth/assets/js/script.js"></script>
 

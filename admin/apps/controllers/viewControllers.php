@@ -23,6 +23,11 @@ if (isset($_GET['urls'])) {
             $page_controller_admin::dashboard();
             break;
 
+        case 'layout-static':
+            $section_active = 'layout-static';
+            $page_controller_admin::layoutstatic();
+            break;
+
         case 'charts':
             $section_active = 'charts';
             $page_controller_admin::charts();
@@ -41,6 +46,11 @@ if (isset($_GET['urls'])) {
         case 'register':
             $section_active = 'register';
             $page_controller_admin::register_admin();
+            break;
+
+        case 'password':
+            $section_active = 'password';
+            $page_controller_admin::password_admin();
             break;
 
             case 'logaut':

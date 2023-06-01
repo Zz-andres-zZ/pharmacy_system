@@ -89,6 +89,7 @@ $(document).ready(() => {
     $("#btn__registrarse, #btn__iniciar-sesion").click(function() {
         $("#form_register input.field").val("");
         $("#form_login input.field").val("");
+        clean_error_inputs();
     });
 
     $("#register").click(function(e) {
@@ -122,6 +123,7 @@ const assign_valid_inputs = () => {
 };
 
 const clean_error_inputs = () => {
+    $("#form_login input.field").removeClass("is-invalid");
     $("#form_register input.field").removeClass("is-invalid");
 };
 

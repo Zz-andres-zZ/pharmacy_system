@@ -3,12 +3,12 @@
 <?php
 if ($url != "login") {
     require_once "view/layout/head.php";
-}
 ?>
 
 <?php
-if ($url != "login") {
-    require_once "view/layout/include/navbar.php";
+    if ($url != "login") {
+        require_once "view/layout/include/navbar.php";
+    }
 }
 ?>
 

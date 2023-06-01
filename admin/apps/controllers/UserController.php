@@ -4,10 +4,9 @@ require_once "../model/Database.php";
 
 class UserController {
     
-    public $name;
-    public $correo;
-    public $phone;
-    public $direction;
+    public $usuario;
+    public $nombre;
+    public $tipo_usuario;
     public $password;
 
     public function __construct() {}
@@ -18,12 +17,11 @@ class UserController {
             $instance = new Database();
 
             $db = $instance->conection();
-            $stmt = $db->prepare("INSERT INTO `usuarios` (`nombre`, `correo`, `telefono`, `direccion`, `password`) VALUES (:name, :correo, :phone, :direction, :password)");
+            $stmt = $db->prepare("INSERT INTO `	usuarios_admin` (`usuario`, `nombre`, `tipo_usuario`, `password`,) VALUES (:usuario, :nombre, :tipo_usuario, :password)");
 
-            $stmt->bindParam(":name", $this->name);
-            $stmt->bindParam(":correo", $this->correo);
-            $stmt->bindParam(":phone", $this->phone);
-            $stmt->bindParam(":direction", $this->direction);
+            $stmt->bindParam(":username", $this->usuario);
+            $stmt->bindParam(":nombre", $this->nombre);
+            $stmt->bindParam(":tipo_usuario", $this->tipo_usuario);
             $stmt->bindParam(":password", $this->password);
             $stmt->execute();
 
@@ -44,8 +42,8 @@ class UserController {
         $instance = new Database();
 
         $db = $instance->conection();
-        $result = $db->prepare(" SELECT * FROM `usuarios` WHERE `correo`=:correo AND `password`=:password AND `status` = 1");
-        $result->bindParam(":correo", $this->correo);
+        $result = $db->prepare(" SELECT * FROM `usuarios_admin` WHERE `usuario`=:usuario AND `password`=:password AND `status` = 1");
+        $result->bindParam(":usuario", $this->usuario);
         $result->bindParam(":password", $this->password);
 
         $result->execute();
@@ -58,7 +56,7 @@ class UserController {
         $instance = new Database();
 
         $db = $instance->conection();
-        $result = $db->prepare("SELECT * FROM `usuarios` WHERE $by = '$value' and `status` = 1");
+        $result = $db->prepare("SELECT * FROM `usuarios_admin` WHERE $by = '$value' and `status` = 1");
         $result->execute();
         $result = $result->fetchAll(PDO::FETCH_OBJ);
 
@@ -69,7 +67,7 @@ class UserController {
         $instance = new Database();
 
         $db = $instance->conection();
-        $result = $db->prepare("SELECT * FROM `usuarios`");
+        $result = $db->prepare("SELECT * FROM `usuarios_admin`");
         $result->execute();
         $result->fetchAll(PDO::FETCH_ASSOC);
     }

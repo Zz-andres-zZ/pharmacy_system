@@ -1,11 +1,15 @@
 <div id="layoutSidenav">
-	<?php require_once "views/layouts/includes/asside.php"; ?>
     <div id="layoutSidenav_content">
+        <header>
+            <?php require "views/layouts/includes/navbar.php"; ?>
+        </header>
         <main>
             <div class="container-fluid">
                 <h1 class="mt-4">Static Navigation</h1>
                 <ol class="breadcrumb mb-4">
-                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                    <li class="breadcrumb-item">
+                        <a href="dashboard">Dashboard</a>
+                    </li>
                     <li class="breadcrumb-item active">Static Navigation</li>
                 </ol>
                 <div class="card mb-4">
@@ -20,7 +24,7 @@
             </div>
         </main>
         <footer class="py-4 bg-light mt-auto">
-			<?php require_once "layouts/includes/footasside.php"; ?>
-		</footer>
+            <?php require_once "layouts/includes/footasside.php"; ?>
+        </footer>
     </div>
 </div>
